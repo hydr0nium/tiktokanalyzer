@@ -17,6 +17,9 @@ Das Programm ist recht simple gestaltet und führt sie durch die verschieden Sch
 - CSV -> Ausgabe im CSV Format für z.B Excel Tabellen
 - Standard Ausgabe -> Ausgabe nur auf der Konsole
 Die Dateien auf die sich das Programm bezieht bei Eingabe durch Datei oder in ihrer Ausgabe in einer Datei sind immer im gleichen Verzeichnis wie die .exe selbst.
+## Beispiel Eingabeformat:
+Wir wollen Anfragen für die Nutzer user1, user2, und user3 haben die auf Tiktok @user1, @user2 und @user3 heißen. Die Eingabelist sieht dann wie folgt aus:
+```user1,user2,user3```
 
 # Selbst Kompilieren
 - Laden sie die .py herunter
