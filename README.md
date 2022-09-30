@@ -5,6 +5,7 @@ Ein einfaches Werkzeug um die Follower und Likes von Tiktok Nutzern zu sammeln
 - Das Programm benötigt etwas Zeit beim Starten
 - Beim erstmaligen Starten läd das Programm Browser Driver runter. Dies kann kurz dauern
 - Das Programm kann beim ersten Starten als schädlich angezeigt werden, da es nicht ein signiertes Programm von Microsoft ist
+- Vorraussetzung für die Funktionsfähigkeit des Programm ist einer der Folgenden Browser: Chome, Firefox, Brave, Edge
 
 # Installation:
 
@@ -21,8 +22,12 @@ Die Dateien auf die sich das Programm bezieht bei Eingabe durch Datei oder in ih
 Wir wollen Anfragen für die Nutzer user1, user2 und user3 haben die auf Tiktok @user1, @user2 und @user3 heißen. Die Eingabelist sieht dann wie folgt aus:
 ```user1,user2,user3```
 
-# Selbst Kompilieren
+# Selbst Kompilieren:
 - Laden sie die .py herunter
 - Installieren Sie alle Dependencies der .py (siehe Imports)
 - Installieren Sie pyinstaller
 - Führen Sie folgenden Befehl in der Konsole aus: ```pyinstaller ./tiktokanalyzer --one-file --console```
+
+# Verifikation der Ausführbaren Datei:
+SHA-256 Hash tiktokanalyzer.exe: 286957EA97904AA8B71D86306B480366C02D2EE09A7F4530A16C3C90AFF889B2
+SHA-256 Hash tiktokanalyzer.py: D18801E59F9391DCA8FA2AD60C83F29FA828016A2DCF956F1C8BBC266BCE5DCA
