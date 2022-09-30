@@ -6,6 +6,7 @@ Ein einfaches Werkzeug um die Follower und Likes von Tiktok Nutzern zu sammeln
 - Beim erstmaligen Starten läd das Programm Browser Driver runter. Dies kann kurz dauern
 - Das Programm kann beim ersten Starten als schädlich angezeigt werden, da es nicht ein signiertes Programm von Microsoft ist
 - Vorraussetzung für die Funktionsfähigkeit des Programm ist einer der Folgenden Browser: Chome, Firefox, Brave, Edge
+- Die große der .exe ist damit zu erklären, dass das Kompilieren von .py zu .exe die Libraries von Python einpackt und in der .exe "verstaut"
 
 # Installation:
 
